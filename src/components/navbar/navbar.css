@@ -3,14 +3,17 @@
     height: 80px;
     background-color: rgb(19, 19, 19);
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    align-items:center;
+   color: white;
+
   }
   
   .links {
     margin-right: 50px;
     display: flex;
-    align-items: center;
+    margin-left: 340px;
+   align-items: center;
+  
   }
   
   .links a {
@@ -18,5 +21,11 @@
     color: white;
     margin-left: 20px;
     font-size: 25px;
+  }
+
+  .name{
+    color:aqua;
+    font-size:30px;
+    margin-left: 300px;
   }
   

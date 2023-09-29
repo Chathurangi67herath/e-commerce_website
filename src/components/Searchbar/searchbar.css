@@ -1,0 +1,23 @@
+.searchbar{
+    width: 20rem;
+    background-color: #F0F0F0;
+    border: none;
+    border-radius:10px;
+    padding: 0.5rem;
+    margin-left: 30px;
+    position: relative;
+   
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#search{
+    display: flex;
+    justify-content: flex-start;
+}
