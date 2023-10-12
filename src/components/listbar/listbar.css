@@ -1,0 +1,62 @@
+/* Navbar styles */
+.navbaro {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px; 
+  }
+  
+  .navbaro ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbaro li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+
+  /* Style for the dropdown arrow icon */
+  .navbaro li::after {
+    content: "►"; 
+    margin-left: 5px;
+  }
+  
+  /* Hover styles for navbar and dropdown items */
+  .navbaro li:hover {
+    background-color: #555; 
+  }
+  
+
+  /* Remove default list styles */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .info-container {
+    background-color: #cfcfcf; 
+    padding: 10px;
+    margin: 0;  
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+/* Add a border around the images */
+.info-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #ccc; /* Adjust border color and width as needed */
+    border-radius: 5px; /* Optional: Add rounded corners to the border */
+  }
+  
+ 
