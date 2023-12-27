@@ -5,7 +5,7 @@ import './searchbar.css';
 function Searchbar() {
   return (
     <div style={{ position: "relative" }}>
-    <FaSearch  className='icon'/>
+    {/* <FaSearch  className='icon'/>
     <input
       className='searchbar'
       id='search'
@@ -13,7 +13,7 @@ function Searchbar() {
      
       placeholder={"Search"}
      
-    />
+    /> */}
   </div>
   )
 }

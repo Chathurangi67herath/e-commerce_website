@@ -15,7 +15,7 @@ function Profile() {
         <p>Kandy</p>
         <h4>Phone Number :</h4>
         <p>0762836728</p>
-        <button>Edit Profile</button>
+        {/* <button>Edit Profile</button> */}
       </div>
     </div>
   )

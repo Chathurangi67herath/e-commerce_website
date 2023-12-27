@@ -129,7 +129,7 @@ const ListBar = () => {
 
   return (
     <Navbar>
-      {items.map((item, index) => (
+      {/* {items.map((item, index) => (
         <NavbarItem
           key={index}
           onMouseEnter={() => handleItemHover(index)}
@@ -147,7 +147,7 @@ const ListBar = () => {
             </Dropdown>
           )}
         </NavbarItem>
-      ))}
+      ))} */}
     </Navbar>
   );
 };
